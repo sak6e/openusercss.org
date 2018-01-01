@@ -101,3 +101,8 @@ star-rating {
 .is-flex {
   display: flex
 }
+
+.dynamic-width-root {
+  padding-left: calc((100vw - 100%) / 2);
+  padding-right: calc((100vw - 100%) / 2);
+}

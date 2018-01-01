@@ -7,6 +7,10 @@
   }
 }
 
+html {
+  overflow-y: auto;
+}
+
 p,
 a,
 li,
@@ -17,10 +21,6 @@ ul {
   max-font-size: 16.5px;
   min-font-size: 15px;
   text-decoration: none;
-}
-
-body {
-  overflow-y: scroll;
 }
 
 .dropdown-toggle.clearfix {
