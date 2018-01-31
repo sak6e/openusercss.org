@@ -86,16 +86,27 @@
   div.ouc-route-root
     b-container
       .section
+        notification.is-warn
+          div(slot="content")
+            | Searching may return an error. If it does, please use
+            | the "Search on Google" button!
         form(@submit.prevent="submitSearch").has-bottom-margin
           b-columns
-            b-column(is-11)
+            b-column(is-9)
               search-field(
                 v-model="query",
                 :value="query",
                 @input="queryChange"
               )
-            b-column(is-1)
+            b-column
               button.button(type="submit", :class="['button', 'is-primary', 'is-pulled-right', {'is-loading': loading}]") Search
+            b-column(is-2)
+              a.button(
+                target="_blank",
+                rel="noopener nofollow",
+                :href="'https://google.com/search?q=' + encodeURIComponent(query) + '%20site%3Aopenusercss.org'",
+                :class="['button', 'is-primary', 'is-pulled-right', {'is-loading': loading}]"
+              ) Search on Google
         div(v-if="results")
           b-columns
             b-column(is-4)
