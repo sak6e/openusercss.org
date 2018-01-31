@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.9.7"></a>
+## [0.9.7](https://github.com/OpenUserCSS/openusercss.org/compare/v0.9.6...v0.9.7) (2018-01-31)
+
+
+### Bug Fixes
+
+* **client:** Make the ratings field non-mandatory (fixes [#71](https://github.com/OpenUserCSS/openusercss.org/issues/71)) ([3417f1b](https://github.com/OpenUserCSS/openusercss.org/commit/3417f1b))
+* **usercss-builder:** Globally replace newlines ([5ac136f](https://github.com/OpenUserCSS/openusercss.org/commit/5ac136f))
+
+
+
 <a name="0.9.6"></a>
 ## [0.9.6](https://github.com/OpenUserCSS/openusercss.org/compare/v0.9.5...v0.9.6) (2018-01-10)
 
