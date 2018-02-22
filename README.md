@@ -11,6 +11,8 @@
   <summary><strong>More screenshots</strong> (click to expand)</summary>
 
   ----
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/OpenUserCSS/openusercss.org.svg)](https://greenkeeper.io/)
   ![Theme view](https://i.imgur.com/VYmoPsV.png)
 
   ----
