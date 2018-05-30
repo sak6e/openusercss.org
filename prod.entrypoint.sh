@@ -3,4 +3,4 @@
 set -ex
 
 cd /ouc
-NODE_ENV=production node build/main.js
+./node_modules/.bin/env-cmd .env node build/main.js
